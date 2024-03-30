@@ -1,13 +1,11 @@
 package ru.netology.service;
 
-import org.testng.Assert;
-import org.testng.annotations.Test;
-
-import static org.testng.Assert.*;
+import org.junit.Assert;
+import org.junit.Test;
 
 public class CashbackHackServiceTest {
     @Test
-    public void shouldCalculateifLess() {
+    public void shouldCalculateIfLess() {
         CashbackHackService service = new CashbackHackService();
 
         int actual = service.remain(900);
